@@ -9,7 +9,7 @@ Acceptance Criteria
 
 1. Love Calculator
 WHEN I insert two names and submit
-THEN the LOVE CALCULATOR fetches the percentage match whuch is displayed on screen.
+THEN the LOVE CALCULATOR fetches the percentage match which is displayed on screen.
 
 2. Weather App
 WHEN I click on the WEATHER APP 
@@ -26,7 +26,7 @@ THEN a random excuse is generated
 In this project, we have worked to create a polished UI.
 At least two server API's must be used.
 Client - side site storage must be used
-CSS famework must be used other than Bootstrap
+CSS framework must be used other than Bootstrap
 The projest must meet good quality coding standards (indentation, scoping, nameing, etc)
 No alerts, confirms, or promts may be used.
 Must be deplayed in Github pages 
