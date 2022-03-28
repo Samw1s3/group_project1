@@ -23,12 +23,13 @@ let parseWeather = function(weatherText) {
     let weatherJSON = JSON.parse(weatherText);
     let dailyForecast = weatherJSON.daily;
     console.log(dailyForecast);
-    for (x = 0; x < dailyForecast.length; ++x) {
+    for (x = 0; x < 3; ++x) {
         let day = dailyForecast[x];
-        let today = new Date().getDate() +x;
+        let today = new Date().getDay() + x;
         if (today > 6) {
             today = today - 7;
         }
+        console.log("today is",today);
         let dayOfWeek = getDayOfWeek(today);
         let description = day.weather[0].description;
         let icon = day.weather[0].icon;
@@ -41,7 +42,7 @@ let parseWeather = function(weatherText) {
 }
 
 let displayWeatherDay = function(dayOfWeek, description, icon, sunset, highTemp, lowTemp, humidity){
-    let out = "<div class='weatherDay'><img src='`http://openweathermap.org/img/wn/${icon}@2x.png`'>"
+    let out = "<div class='weatherDay'><img src='http://openweathermap.org/img/wn/" + icon + "@2x.png'>"
     out += "<h2>" + dayOfWeek + "</h2>";
     out += "<h3>" + description + "</h3>";
     out += "<p>Sunset: " + sunset + "</p>";
@@ -49,7 +50,7 @@ let displayWeatherDay = function(dayOfWeek, description, icon, sunset, highTemp,
     out += "<p>Low Temperature: " + lowTemp + "°C</p>";
     out += "<p>Humidity: " + humidity + "%</p>";
     document.getElementById("forecast").innerHTML += out;
-
+    
 }
 
 let getDayOfWeek = function(dayNum) {
@@ -62,7 +63,7 @@ let getDayOfWeek = function(dayNum) {
     weekday[5] = "Friday"
     weekday[6] = "Saturday"
 
-    return (weekday[dayNum]);
+    return weekday[dayNum];
 
 }
 
