@@ -1,0 +1,58 @@
+/* reference */
+/* link fonts  'Amatic SC', 'Fredoka One', 'Mali', 'Quicksand','Spartan'*/
+
+:root{
+ /* Weather Report Colours */
+ --wr-green: #0b8e7aff;
+ --wr-blue: #118ab2ff;
+ --wr-orange: rgb(209, 82, 73);
+ --wr-yellow: #ffd166ff;
+}
+
+/* Set style for the whole weather report section */
+#section-weather-report {
+   margin: 10px 0px 10px 0px;
+    border-top: 20px solid var(--wr-yellow);
+    border-bottom: 20px solid var(--wr-yellow);
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 248, 233);
+}
+
+/* Set header2 text within weather report section */
+#section-weather-report h2 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3rem;
+    line-height: 5px;
+    color: var(--wr-orange);
+}
+
+/* Set header3 texy within weather report section */
+#section-weather-report h3 {
+    font-family: 'Mali';
+    font-weight: 300;
+}
+
+/* Set paragraph text within weather report section */
+#section-weather-report p {
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+/* align the elements within */
+#forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Set style for the forecast boxes */
+.weatherDay {
+    text-align: center;
+    border: 5px solid var(--wr-yellow);
+    border-radius: 5px;
+    color: #808080;
+    background-color: rgb(255, 239, 202);
+    padding: 15px;
+    margin: 20px;
+}
