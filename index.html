@@ -29,11 +29,18 @@
     </header>
  
     <section id="section-love-calculator">
-        <h2>Love Calculator</h2>
-        <h3>Find out how compatible you two really are...</h3>
+        <button id="button-love-calculator-show">
+            <h2>Love Calculator</h2>
+        </button>
+        <h3 id="h3-slogan">Find out how compatible you two really are...</h3>
+        <h3 class="hide" id="h3-fortune">..</h3>
+        <h3 class="hide" id="h3-rating">%</h3>
+        <button class="hide" id="button-love-calculator-try-again">Try Again</button>
         <!-- inputs for each name -->
-        <form id="form-love-calculator-names">
-            <input id="input-love-calulator-name-1">
+        <form id="form-love-calculator-names" class="hide">
+            <input type="text" id="input-love-calulator-name-1" placeholder="Lucky Person 1">
+            <input type="text" id="input-love-calulator-name-2" placeholder="Lucky Person 2">
+            <button id="button-love-calculator-submit">Submit</button>
         </form>
 
     </section>
