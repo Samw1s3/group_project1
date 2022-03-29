@@ -2,32 +2,7 @@
     /* General text colours */
 --dark-text: black;
 --light-text: white;
-
   /* Header + Footer Colours to go here */
-
-  /* Love Calculator Colours */
---lc-navy: #011627ff;
---lc-purple: #782f4bff;
---lc-bright-pink: #ef476fff;
---lc-light-pink: #f6a3b6ff;
-
-  /* Weather Report Colours */
---wr-green: #0b8e7aff;
---wr-blue: #118ab2ff;
---wr-orange: #f06e64ff;
---wr-yellow: #ffd166ff;
-
-    /* Activity Generator Colours */
---ag-pink: #e0acd5ff;
---ag-aqua: #afecdf;
---ag-light-blue: #11b5e4ff;
---ag-dark-blue: #3993ddff;
-
-/* Joke Generator Colours */
---jg-orange: #fb5607ff;
---jg-yellow: #ffd166ff;
---jg-green: #7ea16bff;
---jg-blue: #118ab2ff;
 
 /* Excuse Generator Colours */
 --eg-navy: #073b4cff;
@@ -35,7 +10,50 @@
 --eg-dusty-pink: #b48291ff;
 --eg-light-pink: #ddcabbff;
 }
+body {
+margin-left: 10%;
+margin-right: 10%;
+}
 
 .hide {
-  display:none;
+  display: none;
+}
+
+header {
+  padding: 10px 0px 20px 0px;
+  background: -webkit-linear-gradient(60deg, rgb(189, 216, 189), rgb(64, 146, 240));
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+header h1 {
+  font-family: 'Mali', sans-serif;
+  font-size: 4rem;
+  }
+
+header h3 {
+  font-family: 'Mali';
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+
+footer {
+  padding: 10px 0px 20px 0px;
+  background: -webkit-linear-gradient(60deg, rgb(189, 216, 189), rgb(64, 146, 240));
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+footer h1 {
+  font-family: 'Mali', sans-serif;
+  font-size: 4rem;
+  }
+
+footer h3 {
+  font-family: 'Mali';
+  font-weight: 300;
+  font-size: 1.8rem;
 }
