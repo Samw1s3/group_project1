@@ -4,33 +4,35 @@
 --light-text: white;
   /* Header + Footer Colours to go here */
 
-  /* Love Calculator Colours */
---lc-navy: #011627ff;
---lc-purple: #782f4bff;
---lc-bright-pink: #ef476fff;
---lc-light-pink: #f6a3b6ff;
-
-  /* Weather Report Colours */
---wr-green: #0b8e7aff;
---wr-blue: #118ab2ff;
---wr-orange: #f06e64ff;
---wr-yellow: #ffd166ff;
-
-    /* Activity Generator Colours */
---ag-pink: #e0acd5ff;
---ag-aqua: #afecdf;
---ag-light-blue: #11b5e4ff;
---ag-dark-blue: #3993ddff;
-
-/* Joke Generator Colours */
---jg-orange: #fb5607ff;
---jg-yellow: #ffd166ff;
---jg-green: #7ea16bff;
---jg-blue: #118ab2ff;
-
 /* Excuse Generator Colours */
 --eg-navy: #073b4cff;
 --eg-blue: #7b9ea8ff;
 --eg-dusty-pink: #b48291ff;
 --eg-light-pink: #ddcabbff;
 }
+body {
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.hide {
+  display: none;
+}
+
+header h1 {
+  font-family: 'Mali', sans-serif;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  background: -webkit-linear-gradient(60deg, rgb(78, 124, 78), rgb(71, 124, 184));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+header h3 {
+  font-family: 'Quicksand';
+}
+
+header {
+  padding-bottom: 20px;
+}
+
