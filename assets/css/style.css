@@ -19,20 +19,41 @@ margin-right: 10%;
   display: none;
 }
 
+header {
+  padding: 10px 0px 20px 0px;
+  background: -webkit-linear-gradient(60deg, rgb(189, 216, 189), rgb(64, 146, 240));
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
 header h1 {
   font-family: 'Mali', sans-serif;
-  font-size: 3.5em;
-  margin-bottom: 10px;
-  background: -webkit-linear-gradient(60deg, rgb(78, 124, 78), rgb(71, 124, 184));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
   }
 
 header h3 {
-  font-family: 'Quicksand';
+  font-family: 'Mali';
+  font-weight: 300;
+  font-size: 1.8rem;
 }
 
-header {
-  padding-bottom: 20px;
+
+footer {
+  padding: 10px 0px 20px 0px;
+  background: -webkit-linear-gradient(60deg, rgb(189, 216, 189), rgb(64, 146, 240));
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
 }
 
+footer h1 {
+  font-family: 'Mali', sans-serif;
+  font-size: 4rem;
+  }
+
+footer h3 {
+  font-family: 'Mali';
+  font-weight: 300;
+  font-size: 1.8rem;
+}
