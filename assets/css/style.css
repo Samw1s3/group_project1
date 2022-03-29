@@ -36,3 +36,6 @@
 --eg-light-pink: #ddcabbff;
 }
 
+.hide {
+  display:none;
+}
