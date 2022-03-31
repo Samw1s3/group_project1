@@ -1,0 +1,69 @@
+    :root { /* Activity Generator Colours */
+    --ag-pink: #e0acd5ff;
+    --ag-aqua: #84cfbf;
+    --ag-light-blue: #11b5e4ff;
+    --ag-dark-blue: #3993ddff;
+    }
+
+
+/* Set style for the whole weather report section */
+#section-activity-generator {
+    margin: 20px 0px 20px 0px;
+     border-top: 20px solid var(--ag-dark-blue);
+     border-bottom: 20px solid var(--ag-dark-blue);
+     padding: 30px;
+     text-align: center;
+     background-color: rgb(239, 251, 255);
+     color: #808080;
+ }
+ 
+ /* Set header2 text within weather report section */
+ #section-activity-generator h2 {
+     font-family: 'Mali', sans-serif;
+     font-size: 3rem;
+     line-height: 5px;
+     color: var(--ag-dark-blue);
+ }
+ 
+ /* Set header3 texy within weather report section */
+ #section-activity-generator h3 {
+     font-family: 'Mali';
+     font-weight: 300;
+     font-size: 2rem;
+ }
+ 
+ /* Set paragraph text within weather report section */
+ #section-activity-generator p {
+     font-family: 'Quicksand';
+     text-align: center;
+     font-size: 1.8rem;
+     color: var(--ag-pink);
+     font-weight: 800;
+ }
+ 
+ #section-activity-generator button {
+     border: 3px solid var(--ag-aqua);
+     background-color: var(--ag-aqua);
+     color: white;
+     border-radius: 3px;
+     padding: 30px;
+     font-family: 'Quicksand';
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+ 
+ #section-activity-generator button:focus {
+background-color: var(--ag-light-blue);
+border: var(--ag-light-blue);
+color: white;
+ }
+
+ @media screen and (max-width: 1060px) {
+  
+    #section-activity-generator h2{
+     
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 60px;
+    }
+  }

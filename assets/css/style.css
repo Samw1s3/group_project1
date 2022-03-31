@@ -1,0 +1,59 @@
+:root {
+    /* General text colours */
+--dark-text: black;
+--light-text: white;
+  /* Header + Footer Colours to go here */
+
+/* Excuse Generator Colours */
+--eg-navy: #073b4cff;
+--eg-blue: #7b9ea8ff;
+--eg-dusty-pink: #b48291ff;
+--eg-light-pink: #ddcabbff;
+}
+body {
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  padding: 10px 0px 20px 0px;
+  background: -webkit-linear-gradient(60deg, rgb(189, 216, 189), rgb(64, 146, 240));
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+header h1 {
+  font-family: 'Mali', sans-serif;
+  font-size: 4rem;
+  }
+
+header h3 {
+  font-family: 'Mali';
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+
+footer {
+  padding: 10px 0px 20px 0px;
+  background: -webkit-linear-gradient(60deg, rgb(189, 216, 189), rgb(64, 146, 240));
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+footer h1 {
+  font-family: 'Mali', sans-serif;
+  font-size: 4rem;
+  }
+
+footer h3 {
+  font-family: 'Mali';
+  font-weight: 300;
+  font-size: 1.8rem;
+}
