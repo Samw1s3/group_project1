@@ -63,28 +63,42 @@ buttonLoveCalculatorSubmit.addEventListener('click', function(event){
 		
 	}
 
-	// then I want to see a percentage render (in the heart) of our love likelihood
+	// then I want to see a percentage and resulting opinion to render (in the heart) of our love likelihood
 	function showRatingAndFortune(){
 		h3LoveCalculatorFortune.classList.remove('hide');
 		h3LoveCalculatorRating.classList.remove('hide');
+
+		clearInputForms();
+	}
+	function clearInputForms(){
+		// clear the input values
+		inputLoveCalculatorName1.value = null;
+	 	inputLoveCalculatorName2.value = null;
 		
-		// render a percentage 
-		//  renderLoveCalculation();
+		 //   render a try again button at top of heart 
+		 buttonLoveCalculatorTryAgain.classList.remove('hide');
 	}
 
+	// when I click the try again button
+	buttonLoveCalculatorTryAgain.addEventListener('click', function(event){
+		// I want to render the name form inputs
+		formLoveCalculatorNames.classList.remove('hide');
+
+		// then hide the try again button
+		buttonLoveCalculatorTryAgain.classList.add('hide');
+
+		// I want to clear the result 
+		h3LoveCalculatorFortune.textContent = '';
+		// and clear percentage
+		h3LoveCalculatorRating.textContent ='';
+	});
+	
 
     
-    // render a percentage sign
-	//  function renderLoveCalculation(rating, fortune){
-	// 	h3LoveCalculatorFortune.textContent(fortune);
-	// 	h3LoveCalculatorRating.textContent= rating;
+ 
+		
+	
 
-	// 	//  
-	// 	// clear the input names
-	// 	inputLoveCalculatorName1.value = null;
-	// 	inputLoveCalculatorName2.value = null;
-	//  }
-// render a try again button at top of heart 
 
 
 
