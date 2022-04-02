@@ -1,6 +1,63 @@
 :root { /* Joke Generator Colours */
---jg-orange: #fb5607ff;
---jg-yellow: #ffd166ff;
+--jg-deep-green: #177E89;
+--jg-lightgreen: #D7FFC2;
 --jg-green: #7ea16bff;
---jg-blue: #118ab2ff;
+--jg-blue: #08605F;
+--jg-button: #6EEB83;
 }
+
+/* Set style for the whole joke generator section */
+#section-joke-generator {
+    margin: 20px 0px 20px 0px;
+     border-top: 20px solid var(--jg-blue);
+     border-bottom: 20px solid var(--jg-blue);
+     padding: 30px;
+     text-align: center;
+     background-color: var(--jg-lightgreen);
+     color: #808080;
+ }
+ 
+ /* Set header2 text within joke generator section */
+ #section-joke-generator h2 {
+     font-family: 'Mali', sans-serif;
+     font-size: 3rem;
+     line-height: 5px;
+     color: var(--jg-deep-green);
+ }
+ 
+ /* Set header3 texy within joke generator section */
+ #section-joke-generator h3 {
+     font-family: 'Mali';
+     font-weight: 300;
+     font-size: 2rem;
+ }
+ 
+ /* Set paragraph text within joke generator section */
+ #section-joke-generator p {
+     font-family: 'Quicksand';
+     text-align: center;
+     font-size: 1.8rem;
+     color: #808080;
+     font-weight: 800;
+
+ }
+ 
+ /* Joke Button */
+ #section-joke-generator button {
+    background-color: var(--jg-button);
+    border: var(--jg-button);
+    border-radius: 3px;
+    color: white;
+    font-family: 'Quicksand';
+     text-align: center;
+     font-size: 1.8rem;
+     color: white;
+     font-weight: 800;
+     padding: 20px;
+ }
+
+ #section-joke-generator button:focus {
+    background-color: var(--jg-blue);
+    border: var(--jg-blue);
+    color: white;
+     }
