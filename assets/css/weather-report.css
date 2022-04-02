@@ -57,4 +57,27 @@
     background-color: rgb(255, 229, 168);
     padding: 15px;
     margin: 20px;
+    width: 33%;
 }
+
+@media screen and (max-width: 1060px) {
+    #forecast {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+      
+    .weatherDay {
+        
+       width: 80%;  
+       margin: 10px 0 10px 0;     
+    
+    }
+    #section-weather-report h2{
+     
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 60px;
+    }
+  }
