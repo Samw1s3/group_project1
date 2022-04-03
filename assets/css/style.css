@@ -3,12 +3,6 @@
 --dark-text: black;
 --light-text: white;
   /* Header + Footer Colours to go here */
-
-/* Excuse Generator Colours */
---eg-navy: #073b4cff;
---eg-blue: #7b9ea8ff;
---eg-dusty-pink: #b48291ff;
---eg-light-pink: #ddcabbff;
 }
 body {
 margin-left: 10%;

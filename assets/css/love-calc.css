@@ -2,6 +2,59 @@
      /* Love Calculator Colours */
 --lc-navy: #011627ff;
 --lc-purple: #782f4bff;
---lc-bright-pink: #ef476fff;
---lc-light-pink: #f6a3b6ff;
+--lc-button: #ef476fff;
+--lc-border: #ef476fff;
+--lc-background: #f6a3b6ff;
+}
+
+/* Set style for the whole  section */
+#section-love-calculator {
+     margin: 20px 0px 20px 0px;
+      border-top: 20px solid var(--lc-background);
+      border-bottom: 20px solid var(--lc-background);
+      padding: 30px;
+      text-align: center;
+      background-color: rgb(239, 251, 255);
+      color: #808080;
+  }
+  
+  /* Set header2 text within section */
+  #section-love-calculator h2 {
+      font-family: 'Mali', sans-serif;
+      font-size: 3rem;
+      line-height: 5px;
+      color: white;
+  }
+  
+  /* Set header3 texy within section */
+  #section-love-calculator h3 {
+      font-family: 'Mali';
+      font-weight: 300;
+      font-size: 2rem;
+  }
+  
+  /* Set paragraph text within section */
+  #section-love-calculator p {
+      font-family: 'Quicksand';
+      text-align: center;
+      font-size: 1.8rem;
+      color: var(--ag-pink);
+      font-weight: 800;
+  }
+  
+  #section-love-calculator button {
+      border: 3px solid var(--lc-button);
+      background-color: var(--lc-button);
+      color: white;
+      border-radius: 3px;
+      padding: 30px;
+      font-family: 'Quicksand';
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+  
+  #section-love-calculator button:focus {
+ background-color: var(--ag-light-blue);
+ border: var(--ag-light-blue);
+ color: white;
 }
