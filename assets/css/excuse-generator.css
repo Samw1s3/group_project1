@@ -38,13 +38,9 @@
    font-family: 'Quicksand';
    text-align: center;
    margin: 10px;
+   font-size: 1.5rem;
 }
 
-#section-help-me-now p {
-  font-family: 'Quicksand';
-  text-align: center;
-  margin: 10px;
-}
 
 #section-help-me-now button {
   font-family: 'Quicksand';
