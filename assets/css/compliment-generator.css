@@ -1,3 +1,63 @@
+:root { /* compliment generator Colours */
+    --ag-border: #8776E5;
+    --ag-background: #D2CCF5;
+    --ag-button: #11b5e4ff;
+    --ag-text: #6854DE;
+    }
+
 #compliment-text {
     text-transform: capitalize;
 }
+
+
+/* Set style for the compliment section */
+#section-compliment-generator {
+    margin: 20px 0px 20px 0px;
+     border-top: 20px solid var(--ag-border);
+     border-bottom: 20px solid var(--ag-border);
+     padding: 30px;
+     text-align: center;
+     background-color: rgb(239, 251, 255);
+     color: #808080;
+ }
+ 
+ /* Set header2 text within compliment section */
+ #section-compliment-generator h2 {
+     font-family: 'Mali', sans-serif;
+     font-size: 3rem;
+     line-height: 5px;
+     color: var(--ag-text);
+ }
+ 
+ /* Set header3 texy within compliment  section */
+ #section-compliment-generator h3 {
+     font-family: 'Mali';
+     font-weight: 300;
+     font-size: 2rem;
+ }
+ 
+ /* Set paragraph text within compliment  section */
+ #section-compliment-generator p {
+     font-family: 'Quicksand';
+     text-align: center;
+     font-size: 1.8rem;
+     color: #808080;
+     font-weight: 800;
+ }
+ 
+ #section-compliment-generator button {
+     border: 3px solid var(--ag-border);
+     background-color: var(--ag-border);
+     color: white;
+     border-radius: 3px;
+     padding: 30px;
+     font-family: 'Quicksand';
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+ 
+ #section-compliment-generator button:focus {
+background-color: var(--ag-light-blue);
+border: var(--ag-light-blue);
+color: white;
+ }

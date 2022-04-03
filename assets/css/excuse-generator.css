@@ -1,0 +1,58 @@
+/* Excuse Generator Colours */
+:root {
+--eg-navy: #255C99;
+--eg-blue: #8CB5E3;
+--eg-dusty-pink: #b48291ff;
+--eg-light-pink: #ddcabbff;
+}
+
+/* excuse generator css*/
+#section-help-me-now {
+  margin: 20px 0px 20px 0px;
+   border-top: 20px solid var(--eg-navy);
+   border-bottom: 20px solid var(--eg-navy);
+   padding: 30px;
+   text-align: center;
+   background-color: var(--eg-blue);
+   color: white;
+}
+
+/* Set header2 text within weather report section */
+#section-help-me-now h2 {
+   font-family: 'Mali', sans-serif;
+   font-size: 3rem;
+   line-height: 5px;
+   color: var(---eg-dusty-pink);
+   box-shadow: 0;
+}
+
+/* Set header3 texy within weather report section */
+#section-help-me-now h3 {
+   font-family: 'Mali';
+   font-weight: 300;
+   font-size: 2rem;
+}
+
+/* Set paragraph text within weather report section */
+#section-help-me-now div {
+   font-family: 'Quicksand';
+   text-align: center;
+   margin: 10px;
+}
+
+#section-help-me-now p {
+  font-family: 'Quicksand';
+  text-align: center;
+  margin: 10px;
+}
+
+#section-help-me-now button {
+  font-family: 'Quicksand';
+  text-align: center;
+  background-color: #63ADF2;
+  padding: 20px 30px 20px 30px;
+  border-radius: 4px;
+  border: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
