@@ -1,7 +1,78 @@
 :root {
      /* Love Calculator Colours */
---lc-navy: #011627ff;
---lc-purple: #782f4bff;
---lc-bright-pink: #ef476fff;
---lc-light-pink: #f6a3b6ff;
-}
+ --lc-navy: #011627ff;
+ --lc-purple: #782f4bff;
+ --lc-bright-pink: #ef476fff;
+ --lc-light-pink: #f6a3b6ff;
+ --lc-lavender: #C287E8;
+ --lc-pink: #FF66D8;
+ --lc-blush: #EECFD4;
+ --lc-forestgreen: #387e21;
+ --lc-tangerine: #EC4E20;
+ --lc-stormyblue: #3777FF;
+ --lc-white: #feefdd;
+ --lc-black: #201e1f;
+ }
+ /* fonts  'Amatic SC', 'Fredoka One', 'Mali', 'Quicksand','Spartan' */
+  
+ .pink {
+     font-family: 'Mali', 'Quicksand', sans-serif;
+     color:var(--lc-navy);
+     background-color: var(--lc-pink);
+     border-radius: 20%;
+     border-color: var(--lc-purple);
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+ }
+  
+ .input-style {
+     margin: 20px;
+     padding-top: 5px;
+ }
+  
+  
+ #section-love-calculator {
+     font-family: 'Mali', 'Lucida Sans Unicode';
+     background-color: var(--lc-light-pink);
+     color: var(--lc-purple);
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 5%;
+ }
+  
+ #div-love-calculator-response {
+     flex-direction: column;
+ }
+ #h3-rating {
+     font-size: large;
+ }
+ #button-love-calculator-show {
+     border-color: var(--lc-navy);
+     font-family: 'Fredoka One', 'Quicksand', sans-serif;
+     background-color: var(--lc-bright-pink);
+     color: var(--lc-purple);
+     width: 50%;
+     height: auto;
+     margin: 1%;
+  
+ }
+  
+ #button-love-calculator-try-again {
+     font-family: 'Mali', 'Quicksand', sans-serif;
+     color:var(--lc-navy);
+     background-color: var(--lc-pink);
+     border-radius: 20%;
+     border-color: var(--lc-purple);
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+ }
+  
+ #div-love-calculator-response {
+     display: flex;
+  
+ }
+ 
