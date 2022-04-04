@@ -1,11 +1,11 @@
 # 1st Group Project Using APIS and Fetch 
 
-USER Story 
+## USER Story 
 
 I WANT TO be able to acces an app that will generate different conversational points.
 SO I CAN reduce my chances of having awkward silences in the conversation with my date.
 
-Acceptance Criteria
+### Acceptance Criteria
 
 1. Love Calculator
 WHEN I insert two names and submit
@@ -23,6 +23,7 @@ THEN A rondom joke is generated
 WHEN I click on the button of the excuse generator 
 THEN a random excuse is generated
 
+### Description
 In this project, we have worked to create a polished UI.
 At least two server API's must be used.
 Client - side site storage must be used
@@ -32,7 +33,16 @@ No alerts, confirms, or promts may be used.
 Must be deplayed in Github pages 
 Must be interactive (ie acccept and respont to user input)
 
-This project HTML, CSS and JS have been used
+This project HTML, CSS and JS have been used.
+
+#### Links 
+
+You can visit this site at [Awkward Turtle Moments GitHub Pages](https://samw1s3.github.io/group_project1/)
+
+
+##### Demo
+The Awkward Turtle Moments website should render like the below video. 
+![Awkward Turtle Moments Demo](./Awkward-Turtle-Moments.gif) 
 
 
 
