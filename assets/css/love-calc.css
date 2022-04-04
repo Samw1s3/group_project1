@@ -61,6 +61,7 @@
       font-family: 'Quicksand';
       font-size: 1.5rem;
       font-weight: bold;
+      width: 80%;
   }
   
   #section-love-calculator button:focus {
