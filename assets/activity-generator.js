@@ -1,4 +1,4 @@
-let url = "http://www.boredapi.com/api/activity?participants=2"
+let url = "https://www.boredapi.com/api/activity?participants=2"
 
 let recURL = "https://www.boredapi.com/api/activity?type=recreational"
 
