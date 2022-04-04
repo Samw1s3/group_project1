@@ -1,6 +1,6 @@
 let url = "http://www.boredapi.com/api/activity?participants=2"
 
-let recURL = "http://www.boredapi.com/api/activity?type=recreational"
+let recURL = "https://www.boredapi.com/api/activity?type=recreational"
 
 const activityText = document.getElementById('activity-text');
 

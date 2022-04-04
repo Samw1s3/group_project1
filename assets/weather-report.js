@@ -42,7 +42,7 @@ let parseWeather = function(weatherText) {
 }
 
 let displayWeatherDay = function(dayOfWeek, description, icon, sunset, highTemp, lowTemp, humidity){
-    let out = "<div class='weatherDay'><img src='http://openweathermap.org/img/wn/" + icon + "@2x.png'>"
+    let out = "<div class='weatherDay'><img src='https://openweathermap.org/img/wn/" + icon + "@2x.png'>"
     out += "<h2>" + dayOfWeek + "</h2>";
     out += "<h3>" + description + "</h3>";
     out += "<p>Sunset: " + sunset + "</p>";
