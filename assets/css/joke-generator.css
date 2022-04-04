@@ -61,3 +61,13 @@
     border: var(--jg-blue);
     color: white;
      }
+
+     @media screen and (max-width: 1060px) {
+  
+        #section-joke-generator h2{
+         
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            line-height: 60px;
+        }
+      }  

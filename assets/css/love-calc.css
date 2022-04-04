@@ -73,3 +73,13 @@
     width: 20%;
     height: auto;
 }
+
+@media screen and (max-width: 1060px) {
+  
+    #section-love-calculator h2{
+     
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 60px;
+    }
+  }
