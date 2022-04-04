@@ -19,6 +19,6 @@ buttonHelpMe.addEventListener('click', function(event){
 // cycles through array and randomly selects excuse
 const randomExcuse = excusesList[Math.floor(Math.random()*excusesList.length)];
 // excuse is displayed on screen
-displayExcuse.textContent = randomExcuse;
+displayExcuse.textContent = 'Excuse: ' + randomExcuse;
 })
 
