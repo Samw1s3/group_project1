@@ -28,33 +28,3 @@ jokeButton.addEventListener('click', function(event){
     
 })
 
-
-    
-// function createElems(heading, jokeSetup, jokeDelivery){
-//     // const headingElem = document.createElement('h2');
-//     const jokeSetupElem = document.createElement('p');
-//     const jokeDeliveryElem = document.createElement('p');
-//     if 
-    
-    
-//     // headingElem.innerHTML = heading;
-//     jokeSetupElem.innerHTML = jokeSetup;
-//     jokeDeliveryElem.innerHTML = jokeDelivery;
-
-//     // demoDiv.appendChild(headingElem);
-//     demoDiv.appendChild(jokeSetupElem);
-//     demoDiv.appendChild(jokeDeliveryElem);
-
-    
-
-
-
-
-
-// When I click on generate joke button
-
-// Then a requests is sent tot he API
-
-// I receive a random Joke 
-
-// Joke is displayed dynamically 

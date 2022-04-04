@@ -9,7 +9,7 @@ complimentButton.addEventListener('click', function(event) {
 
     fetch(complimentURL)
         .then(function (response) {
-            console.log("compliemnt",response)
+            console.log("compliment",response)
             return response.json();
         })
         .then(function(data) {

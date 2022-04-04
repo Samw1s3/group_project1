@@ -47,7 +47,7 @@ buttonLoveCalculatorSubmit.addEventListener('click', function(event){
 		console.log(data);
 		
 		// render the data
-		h3LoveCalculatorRating.textContent = data.percentage + ' %';
+		h3LoveCalculatorRating.textContent = data.percentage + ' % chance of falling in love';
 		h3LoveCalculatorFortune.textContent = data.result;
 
 		// hide the name form

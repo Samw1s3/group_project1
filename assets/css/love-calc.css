@@ -3,8 +3,17 @@
 --lc-navy: #011627ff;
 --lc-purple: #782f4bff;
 --lc-button: #ef476fff;
---lc-border: #ef476fff;
+--lc-border: #d82650;
 --lc-background: #f6a3b6ff;
+}
+
+/* Set input styles */
+.input-love-calc {
+    font-family: 'Quicksand';
+    border-color: var(--lc-purple);
+    background-color: var(--lc-background);
+    padding: 1%;
+    margin: 1%;
 }
 
 /* Set style for the whole  section */
@@ -42,6 +51,7 @@
       font-weight: 800;
   }
   
+  /* Set love calculator button */
   #section-love-calculator button {
       border: 3px solid var(--lc-button);
       background-color: var(--lc-button);
@@ -57,4 +67,9 @@
  background-color: var(--ag-light-blue);
  border: var(--ag-light-blue);
  color: white;
+}
+
+#image-love-heart {
+    width: 20%;
+    height: auto;
 }
